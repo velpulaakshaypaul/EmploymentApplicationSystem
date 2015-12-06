@@ -10,6 +10,7 @@ Rails.application.config.assets.precompile += %w( jquery-ui.css )
 Rails.application.config.assets.precompile += %w( scaffolds.scss)
 Rails.application.config.assets.precompile += %w(jquery.js)
 Rails.application.config.assets.precompile += %w( jquery-migrate-1.0.0.js )
+Rails.application.config.assets.precompile += %w( jquery.min.js )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
