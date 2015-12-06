@@ -7,6 +7,8 @@ Rails.application.config.assets.precompile += %w( login.css )
 Rails.application.config.assets.precompile += %w( depot.css )
 Rails.application.config.assets.precompile += %w( jquery-ui.js )
 Rails.application.config.assets.precompile += %w( jquery-ui.css )
+Rails.application.config.assets.precompile += %w( scaffolds.scss)
+Rails.application.config.assets.precompile += %w(jquery.js)
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 

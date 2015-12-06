@@ -52,7 +52,7 @@ Ducksburg</textarea>
 </div>
 <script type="text/javascript">
 $( document ).ready(function() {
-
+  var myPos = [ $(window).width() / 2, 50 ];
   $("#poll").click(function() {
 
 $('#datepicker').datepicker();
@@ -65,7 +65,7 @@ var emailContent = document.getElementById("mycheckboxdiv");
 var InterviewContent = document.getElementById("InterviewingOptions");
 emailContent.style.display="none"
 InterviewContent.style.display="none"
-      $("#myDialog").dialog({height: 'auto', buttons: { "OK":
+      $("#myDialog").dialog({height: 'auto',position: myPos,draggable:true, buttons: { "OK":
 
 
       function()
